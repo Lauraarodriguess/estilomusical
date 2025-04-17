@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch case</title>
+</head>
+<body>
+    <center>
+        <h1>Switch Case</h1>
+
+        <script>
+            //criar uma variavel para escolher a opção
+            var opcao = parseInt (prompt(`Selecione o seu gênero musical favorito:
+            1- Rock
+            2- Pop
+            3- Hip hop
+            4- Eletrônica
+            5- Jazz
+            6- Clássica`
+            ))
+
+            switch (opcao) {
+                case 1:
+                document.write ("Seu gênero musical favorito é: Rock")
+                break;
+                case 2:
+                document.write("Seu gênero musical favorito é: Pop")
+                break;
+                case 3:
+                document.write("Seu gênero musical favorito é: Hip hop")
+                break;
+                case 4:
+                document.write("Seu gênero musical favorito é: Eletrônica")
+                break;
+                case 5:
+                document.write("Seu gênero musical favorito é: Jazz")
+                break;
+                case 6:
+                document.write("Seu gênero musical favorito é: Clássica")
+                break;
+                default:
+                document.write("Opção inválida!")
+            }
+        </script>
+    </center>
+</body>
+</html>
